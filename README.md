@@ -1,5 +1,7 @@
 # A *Faster* Pytorch Implementation of Faster R-CNN
 
+将mask分支的_mask包注释掉，将Typetensor 在util里272行的改为BoolTensor
+
 ## Introduction
 
 ### :boom: Good news! This repo supports pytorch-1.0 now!!! We borrowed some code and techniques from [maskrcnn-benchmark](https://github.com/facebookresearch/maskrcnn-benchmark). Just go to pytorch-1.0 branch!
